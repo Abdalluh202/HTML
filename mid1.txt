@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <strong>
+            MID EXAM1 (html5)
+        </strong>
+        <br>
+        <h2><i><b>Advaced internet technologeis</b></i></h2>
+        <h3>my basic infomation</h3>
+        <form action="">
+         <input type="text" placeholder="you First name"> 
+        <input type="text" placeholder="you last name" > 
+        </form>
+
+        <h3>Brief about me:</h3>
+        <textarea name="textarea" rows="5" cols="55">
+         My name is ......... NOTE rows=5 cols=55
+        </textarea>
+        <form action="">
+    upload My pircture:<input type="file"><br>
+        my Favorite programing languages: 
+        <input list="languages" name="languages1">
+        <datalist id="languages">     
+        <option value="java">
+        <option value="python">
+    </datalist><br>
+    My E-mail: <input type="email"><br>
+    Birthday: <input type="date"><br>
+    Our time Now is:<input type="time"><br>
+<input type="submit" value="submit">
+        </form>
+        <footer>  
+     <h3>weite by:Your Name</h3>
+    Contact informaion: <a href="mailto:441219721@tvtc.edu.sa">441219721@tvtc.edu.sa</a>
+</footer>
+
+    </body>
+
+</html>
