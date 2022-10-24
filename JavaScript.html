@@ -1,0 +1,692 @@
+<html>
+    <body>
+        <h2>What JavaScript do ?</h2>
+        <p id="demo">JavaScript can change html content. </p>
+        <button type="button" 
+        onclick='document.getElementById("demo").innerHTML=
+        "Hello JavaScript!"'>cilck me</button>
+
+        <hr>
+    </body>
+</html>
+
+
+<html>
+    <h2>What JavaScript do ?</h2>
+    <p>JavaScript can change html attributs values. </p>
+    <p>in this case JavaScript change the value of the src (source) attributs of in an image</p>
+    <button onclick="document.getElementById('myImage').
+    src='pic_bulbon.gif'">turn on the lingth</button>
+
+
+    <img src="pic_bulboff.gif" style="width:100px;" id="myImage">
+
+
+    <button onclick="document.getElementById('myImage').
+    src='pic_bulboff.gif'">turn off the lingth</button>
+    <hr>
+</html>
+<html>
+    <body>
+        <h2>What JavaScript do ?</h2>
+        <p id="demo1">JavaScript can change html content. </p>
+        <button onclick="document.getElementById('demo1').style.fontSize='35px'">Click me !</button>
+    <hr>
+    </body>
+</html>
+<html>
+    <body>
+        <h2>What JavaScript do ?</h2>
+        <p id="demo2">JavaScript can change html content. </p>
+        <button onclick="document.getElementById('demo2').style.display='none'">Click me !</button>
+    <hr>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h2>What JavaScript do ?</h2>
+        <p id="demo2">JavaScript can change html content. </p>
+        <p id="demo3" style="display: none;">hello JavaScript</p>
+        <button type="button" onclick="document.getElementById('demo3').style.display='block'">Click me !</button>
+    <hr>
+    </body>
+</html>
+<!-- Lab 2: JS Where to Insert JavaScript -->
+
+<html>
+    <head>
+        <script>
+            function myfunction(){
+                document.getElementById("demo00").innerHTML="Paragraph changed";
+            }
+        </script>
+    </head>
+    <body>
+        <h2>demo00</h2>
+        <p id="demo00">a paragrph</p>
+        <button type="button" onclick="myfunction()">tr it</button>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h2>demo01</h2>
+        <p id="demo01">A paragraph </p>
+        <button type="button" onclick="my()">try it</button>
+        <script>
+            function my(){
+                document.getElementById("demo01").innerHTML="Paragraph changed";
+
+            }
+        </script>
+    </body>
+</html>
+
+
+<html>
+    <head>
+        <body>
+            <h2>Demo02</h2>
+            <p id="demo02"> a paragraph</p>
+            <button type="button" onclick="myf()">try it</button>
+            <p>the example</p>
+            <script src="myScript.js"></script>
+        </body>
+    </head>
+</html>
+
+<html>
+    <body>
+        <h2>exteranl JavaScript</h2>
+        <button type="button" onclick="myfun()">try it</button>
+        <p>the example</p>
+        <script src="ja/myScript/.js"></script>
+    </body>
+</html>
+
+
+<!-- Lab 3: JavaScript Output -->
+<html>
+    <body>
+        <h2>first page</h2>
+        <p>my page</p>
+        <p>never call</p>
+        <script>
+            document.write(5+6);
+
+        </script>
+    </body>
+</html>
+
+
+<html>
+    <body>
+        <h2>first page</h2>
+        <p>my page</p>
+        <p id="demo03"></p>
+        <script>
+            document.getElementById("demo03").innerHTML=5+6;
+
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h2>first page</h2>
+        <p>my page</p>
+        <p id="demo04"></p>
+        <script>
+            window.alert(5+6);
+
+        </script>
+    </body>
+</html>
+
+
+<html>
+    <body>
+        <h2>first page</h2>
+        <p>my page</p>
+        <p id="demo05"></p>
+        <script>
+            window.log(5+6);
+
+        </script>
+    </body>
+</html>
+
+<!-- Lab 4: JavaScript Syntax -->
+<html>
+    <body>
+        <h2>JavaScript statment</h2>
+        <p>JavaScript</p>
+        <p id="demo06"></p>
+        <script>
+            var x,y,z;
+            x=5;
+            y=6;
+            z=x+y;
+            document.getElementById("demo06").innerHTML="the number: "+z;
+        </script>
+    </body>
+</html>
+
+
+<html>
+    <body>
+        <h2>JavaScript statment</h2>
+        <p>JavaScript</p>
+        <p id="demo07"></p>
+        <script>
+  
+            document.getElementById("demo07").innerHTML=10.50;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h2>JavaScript statment</h2>
+        <p>JavaScript</p>
+        <p id="demo07"></p>
+        <script>
+  
+            document.getElementById("demo08").innerHTML="JavaScript";
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h2>JavaScript statment</h2>
+        <p>JavaScript</p>
+        <p id="demo009"></p>
+        <script>
+            let x;
+            x=5;
+
+            document.getElementById("demo009").innerHTML=x;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h2>JavaScript statment</h2>
+        <p>JavaScript</p>
+        <p id="demo010"></p>
+        <script>
+
+
+            document.getElementById("demo010").innerHTML=(5+6)*10;
+        </script>
+    </body>
+</html>
+
+
+
+<html>
+    <body>
+        <h2>JavaScript statment</h2>
+        <p>JavaScript</p>
+        <p id="demo9"></p>
+        <script>
+         let x,y;
+         x=5;
+         y=6;
+            document.getElementById("demo9").innerHTML=x+y;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h2>JavaScript statment</h2>
+        <p>JavaScript</p>
+        <p id="demo11"></p>
+        <script>
+
+            document.getElementById("demo11").innerHTML=5*6;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h2>JavaScript statment</h2>
+        <p>JavaScript</p>
+        <p id="demo12"></p>
+        <script>
+
+            document.getElementById("demo12").innerHTML="abdalluh"+" "+"moh";
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h2>JavaScript statment</h2>
+        <p>JavaScript</p>
+        <p id="d12"></p>
+        <script>
+            let x;
+            x=5;
+
+            document.getElementById("d12").innerHTML=x*10;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h2>JavaScript statment</h2>
+        <p>JavaScript</p>
+        <p id="d13"></p>
+        <script>
+            var x,y;
+            x=5+6;
+            y=x*10
+
+            document.getElementById("d13").innerHTML=y
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h2>JavaScript statment</h2>
+        <p>JavaScript</p>
+        <p id="d15"></p>
+        <script>
+            var x;
+            x=5;
+            //x=6;
+            document.getElementById("d15").innerHTML=x;
+        </script>
+    </body>
+</html>
+
+
+<html>
+    <body>
+        <h2>JavaScript statment</h2>
+        <p>JavaScript</p>
+        <p id="d16"></p>
+        <script>
+            var lname,fname;
+            lname="abdalluh";
+            Lname="mohmad"
+            
+            document.getElementById("d16").innerHTML=Lname;
+        </script>
+    </body>
+</html>
+
+<!-- Lab 5: JavaScript Statements -->
+
+
+<html>
+    <body>
+        <h2>JavaScript statment</h2>
+        <p>JavaScript</p>
+        <p id="d17"></p>
+        <script>
+
+            
+            document.getElementById("d17").innerHTML="hello dolly";
+        </script>
+    </body>
+</html>
+
+
+<html>
+    <body>
+        <h2>JavaScript statment</h2>
+        <p>JavaScript</p>
+        <p id="d18"></p>
+        <script>
+            let x,y,z;
+            x=5;
+            y=6;
+            z=x+y;
+
+            
+            document.getElementById("d18").innerHTML="the value"+z+" .";
+        </script>
+    </body>
+</html>
+
+
+<html>
+    <body>
+        <h2>JavaScript statment</h2>
+        <p>JavaScript</p>
+        <p id="d19"></p>
+        <script>
+            let x,y,z;
+            x=5;
+            y=6;
+            z=x+y;
+
+            
+            document.getElementById("d19").innerHTML=z;
+        </script>
+    </body>
+</html>
+
+
+<html>
+    <body>
+        <h2>JavaScript</h2>
+        <p>JavaScript1</p>
+        <button type="button" onclick="myfuc()">click me </button>
+        <p id="d20"></p>
+        <p id="d21"></p>
+        <script>
+            function myfuc(){
+                document.getElementById("d20").innerHTML="hello ";
+                document.getElementById("d21").innerHTML="hi ";
+            }
+        </script>
+    </body>
+</html>
+
+
+<html>
+    <body>
+        <h2>JavaScript</h2>
+        <p>the best place</p>
+        <p id="d22"></p>
+        <script>
+            document.getElementById("d22").innerHTML="hello w";
+        </script>
+    </body>
+</html>
+
+<!-- Lab 6: JavaScript Comments -->
+<head>
+    <body>
+        <h1 id="d23"></h1>
+        <p id="24"></p>
+        <script>
+            document.getElementById("d23").innerHTML="java Script";
+            document.getElementById("d24").innerHTML="java Script1";
+        </script>
+    </body>
+</head>
+
+<head>
+    <body>
+        <h2>JavaScript/h2>
+        <p id="224"></p>
+        <script>
+            let x=5;
+            let y=x+2;
+            //write y to d
+            document.getElementById("d24").innerHTML=y;
+        
+        </script>
+    </body>
+</head>
+
+<head>
+    <body>
+        <h1 id="d23"></h1>
+        <p id="24"></p>
+        <script>
+            /* html 
+             css 
+           javaScript*/
+            document.getElementById("d23").innerHTML="java Script";
+            document.getElementById("d24").innerHTML="java Script1";
+        </script>
+    </body>
+</head>
+
+
+<head>
+    <body>
+        <h1 id="d23"></h1>
+        <p id="24"></p>
+        <script>
+            /* html 
+             css 
+           javaScript*/
+           // document.getElementById("d23").innerHTML="java Script";
+            document.getElementById("d24").innerHTML="java Script1";
+        </script>
+        <p>the //</p>
+    </body>
+</head>
+
+
+<head>
+    <body>
+      <h2>javaScript</h2>
+        <p id="24"></p>
+        <script>
+            /* 
+            document.getElementById("d23").innerHTML="java Script";
+            document.getElementById("d24").innerHTML="java Script1";*/
+            document.getElementById("d23").innerHTML="the comment block is not exeuted";
+        </script>
+    </body>
+</head>
+
+
+<!-- Lab 7: JavaScript Variables -->
+
+<html>
+    <body>
+        <h1>javaScript</h1>
+        <p>in this example</p>
+        <p id="d25"></p>
+        <script>
+            var x=5;
+            var y=6;
+            var z=x+y;
+            document.getElementById("d23").innerHTML="the value z is "+z;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h1>javaScript</h1>
+        <p>in this example</p>
+        <p id="d25"></p>
+        <script>
+            const price1=5;
+            const price2=6;
+            let total=price1+price2;
+            document.getElementById("d25").innerHTML="the value total is "+total;
+        </script>
+    </body>
+</html>
+
+
+<html>
+    <body>
+        <h1>javaScript</h1>
+        <p>in this example</p>
+        <p id="d25"></p>
+        <script>
+            const pi=5;
+            const parson="abdalluh";
+            let answer=" yes i am";
+            document.getElementById("d25").innerHTML=p1+"<br>"+parson+"<br>"+answer;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h1>javaScript</h1>
+        <p>create a value</p>
+        <p id="d26"></p>
+        <script>
+    let crename="volvo";
+            document.getElementById("d25").innerHTML=crename;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h1>javaScript</h1>
+        <p>create a value</p>
+        <p id="d27"></p>
+        <script>
+    let crenamee="volvo",
+    person="BOD",
+    PRIC=200;
+            document.getElementById("d27").innerHTML=crenamee;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h1>javaScript</h1>
+        <p>create a value</p>
+        <p id="d27"></p>
+        <script>
+    let crenameee="volvo", personn="BOD",pPRIC=200;
+   
+            document.getElementById("d27").innerHTML=crenamee;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h1>javaScript</h1>
+        <p>create a value</p>
+        <p id="d27"></p>
+        <script>
+    let x=5+2+3;
+   
+            document.getElementById("d27").innerHTML=x;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h1>javaScript</h1>
+        <p>create a value</p>
+        <p id="d27"></p>
+        <script>
+    let x="abdalluh"+" "+"mohmmed";
+   
+            document.getElementById("d27").innerHTML=x;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h1>javaScript</h1>
+        <p>create a value</p>
+        <p id="d27"></p>
+        <script>
+    let x="5"+3+6;
+   
+            document.getElementById("d27").innerHTML=x;
+        </script>
+    </body>
+</html>
+
+<!-- Lab 8: JavaScript Arithmetic -->
+
+<html>
+    <body>
+        <h1>javaScript</h1>
+        <p>the +operator</p>
+        <p id="d27"></p>
+        <script>
+    let x=5;
+    let y=2;
+    let z=x+y;
+   
+            document.getElementById("d27").innerHTML=z;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h1>javaScript</h1>
+        <p>the +operator</p>
+        <p id="d27"></p>
+        <script>
+    let x=5;
+    let y=2;
+    let z=x-y;
+   
+            document.getElementById("d27").innerHTML=z;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h1>javaScript</h1>
+        <p>the +operator</p>
+        <p id="d27"></p>
+        <script>
+    let x=5;
+    let y=2;
+    let z=x*y;
+   
+            document.getElementById("d27").innerHTML=z;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h1>javaScript</h1>
+        <p>the +operator</p>
+        <p id="d27"></p>
+        <script>
+    let x=5;
+    let y=2;
+    let z=x/y;
+   
+            document.getElementById("d27").innerHTML=z;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h1>javaScript</h1>
+        <p>the +operator</p>
+        <p id="d27"></p>
+        <script>
+    let x=5;
+    let y=2;
+    let z=x%y;
+   
+            document.getElementById("d27").innerHTML=z;
+        </script>
+    </body>
+</html>
+
+<html>
+    <body>
+        <h1>javaScript</h1>
+        <p>the +operator</p>
+        <p id="d27"></p>
+        <script>
+    let x=5;
+    let y=++x;
+    
+         document.getElementById("d27").innerHTML=x;
+            document.getElementById("d27").innerHTML=y;
+        </script>
+    </body>
+</html>
